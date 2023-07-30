@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx nodemon index.js"
@@ -13,10 +13,19 @@
   "license": "ISC",
   "dependencies": {
     "@apollo/server": "^4.8.1",
+    "apollo-datasource-mongodb": "^0.5.4",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "graphql": "^16.7.1",
     "http": "^0.0.1-security",
+    "mongoose": "^7.4.1",
     "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/node": "^7.22.6",
+    "@babel/preset-env": "^7.22.9"
   }
 }
